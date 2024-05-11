@@ -1,5 +1,17 @@
 import React from "react";
-import Header from "./Header";
+//cách 1 import từ 1 file khác
+// import Header from "./Header";
+
+//cách 2: tạo function trong chính hàm này
+function Header(){
+  return(
+    <header className="block">
+    <h2>Welcome to this course!</h2>
+  </header>
+
+  )
+}
+
 function App() {
   return (
     <>
